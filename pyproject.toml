@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "oxxo-link-api"
+version = "0.1.0"
+description = ""
+authors = ["DeividCoding <ronaldo.runing_@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^2.7.1"
+pydantic-settings = "^2.2.1"
+fastapi = "^0.110.2"
+sqlalchemy = "^2.0.29"
+psycopg2-binary = "^2.9.9"
+sentry-sdk = "^1.45.0"
+uvicorn = "^0.29.0"
+pytz = "^2024.1"
+requests = "^2.31.0"
+cloudinary = "^1.40.0"
+openai = "^1.23.3"
+firebase = "4.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
